@@ -1,5 +1,6 @@
 buildscript {
     ext {
+        base_package = 'io.github.afalalabarce.mvvmproject'
         dagger_hilt_version='2.44'
         desugar_version='1.2.0'
         multidex_version = '2.0.1'
