@@ -7,7 +7,6 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import io.github.afalalabarce.mvvmproject.datasource.BuildConfig
 import io.github.afalalabarce.mvvmproject.datasource.cache.dao.AppDatabaseDao
 import io.github.afalalabarce.mvvmproject.datasource.cache.db.AppDatabase
 import io.github.afalalabarce.mvvmproject.datasource.datastore.PreferencesDataStore
@@ -15,6 +14,7 @@ import io.github.afalalabarce.mvvmproject.datasource.remote.service.AppRemoteSer
 import io.github.afalalabarce.mvvmproject.datasource.remote.service.interfaces.AccessTokenProvider
 import io.github.afalalabarce.mvvmproject.datasource.remote.service.providers.AccessTokenProviderImpl
 import io.github.afalalabarce.mvvmproject.model.utilities.iif
+import io.github.afalalabarce.mvvmproject.datasource.BuildConfig
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton

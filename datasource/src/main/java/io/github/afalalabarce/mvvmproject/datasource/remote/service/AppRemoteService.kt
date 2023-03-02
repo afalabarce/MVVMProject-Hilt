@@ -3,13 +3,13 @@ package io.github.afalalabarce.mvvmproject.datasource.remote.service
 import com.google.gson.FieldNamingPolicy
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
-import io.github.afalalabarce.mvvmproject.datasource.BuildConfig
 import io.github.afalalabarce.mvvmproject.datasource.remote.model.RemoteExampleEntity
 import io.github.afalalabarce.mvvmproject.datasource.remote.service.interceptor.AccessTokenInterceptor
 import io.github.afalalabarce.mvvmproject.datasource.remote.service.interceptor.UnauthorizedAccessInterceptor
 import io.github.afalalabarce.mvvmproject.datasource.remote.service.interfaces.AccessTokenProvider
 import io.github.afalalabarce.mvvmproject.model.serializer.GsonDateDeserializer
 import io.github.afalalabarce.mvvmproject.model.serializer.GsonInstantDeserializer
+import io.github.afalalabarce.mvvmproject.datasource.BuildConfig
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Response
